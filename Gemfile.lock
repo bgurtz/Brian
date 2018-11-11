@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/bgurtz/Gurtz_Copyright_Gem
+  revision: e9a45b21d2286c5a5b2394438377555f73d022d4
+  specs:
+    gurtz_copyright (1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -207,6 +213,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.2)
   friendly_id (~> 5.2.0)
+  gurtz_copyright!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)

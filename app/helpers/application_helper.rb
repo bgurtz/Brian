@@ -16,4 +16,8 @@ module ApplicationHelper
    		  content_tag(:p, greeting, class: "source-greeting")
   		end
  	end
+
+  def copyright_generator
+    @copyright = GurtzCopyright::Renderer.copyright 'Brian Gurtz', 'All rights reserved'
+  end
 end
